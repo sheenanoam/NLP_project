@@ -18,6 +18,8 @@ After implementing the models, we explored three different compression methods t
 #### Pruning: Removing redundant weights to decrease the model size while maintaining its performance.
 #### Knowledge Distillation: Training a smaller model to mimic the performance of a larger, pre-trained model.
 These compression techniques were employed to ensure that the models maintain high accuracy while becoming more resource-efficient for real-world applications.
+### Dataset
+The dataset used in this project can be found on [Kaggle](https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset/data)
 
 ### Results
 Visualizations provided clear insights into the structure of phishing emails and common characteristics that distinguish spam from non-spam.
