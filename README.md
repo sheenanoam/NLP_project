@@ -6,13 +6,13 @@ This project is part of an NLP course at the Industrial Engineering Faculty, Tel
 
 This section focuses on visualizing various features and metrics within the phishing email datasets.
 Some key visualizations include:
-The number of URLs present in each email.
-The number of recipients addressed within the email body.
-The distribution of spam vs. non-spam emails.
+The number of URLs present in each email,
+the number of recipients addressed within the email body,
+and the distribution of spam vs. non-spam emails.
 These visualizations provide insight into how phishing emails are structured and help in understanding the dataset’s underlying patterns.
 ### Part B: NLP Modeling
 
-We used two pre-trained language models for classifying phishing emails: BERTa and RoBERTa, known for their high accuracy in text classification tasks.
+We used two pre-trained language models for classifying phishing emails: **BERTa and RoBERTa**, which are known for their high accuracy in text classification tasks.
 After implementing the models, we explored three different compression methods to optimize the models for efficiency:
 #### Quantization: Reducing the precision of weights and activations to speed up inference and reduce memory usage.
 #### Pruning: Removing redundant weights to decrease the model size while maintaining its performance.
